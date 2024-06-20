@@ -7,5 +7,5 @@
 body
 {
     min-height: 100vh;
-    background-color: linear-gradient(rgba(15,8,38,.5),rgba(15,8,38,1));
+    background: linear-gradient(rgba(15,8,38,.5),rgba(15,8,38,1));
 }
