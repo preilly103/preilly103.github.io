@@ -86,3 +86,61 @@ body .title
         transform: translateY(-10vh) scale(1);
     }
 }
+
+.wrapper {
+    display: flex;  
+    flex-flow: row nowrap;
+    font-weight: bold;
+    text-align: center; 
+
+}
+
+.pwrapper > *
+{
+    padding: 10px;
+    flex: 1 100%;
+}
+
+.projecttitles
+{
+    padding-top: 30px;
+    color: white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+}
+
+.images
+{
+    
+    
+    float: left;
+    width: 50%;
+}
+
+.text::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.text
+{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .images {
+      width: 100%;
+    }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
