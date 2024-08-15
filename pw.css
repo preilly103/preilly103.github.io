@@ -107,6 +107,7 @@ body .title
 {
     padding: 10px;
     flex: 1 100%;
+    
 }
 
 .projecttitles
@@ -115,7 +116,8 @@ body .title
     color: white;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-left: 20px;
+    width: 50%;
+    text-align: center;
 }
 
 .images
@@ -218,4 +220,22 @@ body .title
     text-align: center;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.extrat::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.extrat
+{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-right: 100px;
+    line-height: 1.5;
+    
 }
