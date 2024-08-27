@@ -239,3 +239,40 @@ body .title
     line-height: 1.5;
     
 }
+
+.contact
+{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    line-height: 2;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 5px;
+}
+
+.skillBox
+{
+    width: 25%;
+    border: solid;
+    border-width: 4px;
+    border-color: white;
+    border-radius: 5px;
+    margin: 0px auto;
+}
+
+.skillBox p
+{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.75;
+    text-align: center;
+    font-size: 22px;
+}
